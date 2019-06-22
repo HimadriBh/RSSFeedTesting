@@ -46,7 +46,6 @@ $(function() {
         });
     });
 
-
     /* This is new test suite named "The menu" */
     describe('The menu', function() {
         /* This test ensures the menu element is
@@ -97,8 +96,6 @@ $(function() {
             expect($('.feed').find(entry).length).not.toBe(0);
             done();
         });
-    
-        
     });
        
     /* TODO: The new test suite named "New Feed Selection" */
